@@ -25,7 +25,7 @@ class TestLogin():
             hp.clickOnWelcomeLink()
             hp.clickOnLogOutBtn()
             x = driver.title
-            assert x == "abc"
+            assert x == "OrangeHRM"
         except AssertionError as error:
             print("Assertion error occurred")
             print(error)
